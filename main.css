@@ -1,0 +1,193 @@
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label {
+	border: 0;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+legend, caption, table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	background: #fff;
+	line-height: 1;
+}
+html body {
+	text-align: left;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+}
+a img {
+	border: 0;
+}
+
+
+/* =Structure
+----------------------------------------------- */
+
+body {
+	padding: 0 3.8%;
+	
+}
+
+/* =Global
+----------------------------------------------- */
+
+body, input, textarea {
+	color: #333;
+	font: 14px Georgia, "Bitstream Charter", serif;
+	line-height: 1.7;
+}
+#wrapper {
+	background: #fff;
+}
+
+/* Headings */
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+}
+
+/* Text elements */
+p {
+	margin-bottom: 15px;
+}
+ul, ol {
+	margin: 0 0 1.7em 2.5em;
+}
+ul {
+	list-style: square;
+}
+ol {
+	list-style-type: decimal;
+}
+ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+}
+dl {
+	margin-bottom: 1.7em;
+}
+dt {
+	font-weight: bold;
+}
+dd {
+	font-style: italic;
+	margin: 0 1.7em 0;
+}
+strong {
+	font-weight: bold;
+}
+cite, em, i {
+	font-style: italic;
+}
+img {
+	height: auto;
+	max-width: 100%;
+}
+blockquote {
+	background: #F5F5F5;
+	border: solid #bbb;
+	border-width: 1px 0;
+	color: #666;
+	margin: 0 0 1.7em;
+	padding: 5px 10px 0;
+}
+blockquote p {
+	margin-bottom: 7px;
+}
+pre {
+	background: #f4f4f4;
+	font: 13px "Courier New", Courier, monospace;
+	line-height: 1.7;
+	margin-bottom: 1.7em;
+	overflow-x: auto;
+	padding: 0.75em 1.7em;
+	overflow-x: scroll;
+}
+code, kbd {
+	color: #009900;
+	font: 13px "Courier New", Courier, monospace;
+}
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+sub {
+	top: .5ex;
+}
+input[type=text],
+input[type=email],
+textarea {
+	border: 1px solid #bbb;
+}
+textarea {
+	padding-left: 3px;
+	width: 98%;
+}
+input[type=text],
+input[type=email] {
+	padding: 3px;
+}
+
+/* Links */
+a {
+	color: #1c9bdc;
+	text-decoration: none;
+}
+a:focus,
+a:active,
+a:hover {
+	color: #1873a1;
+	text-decoration: underline;
+}
+
+/* Text meant only for screen readers */
+.screen-reader-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+
