@@ -52,7 +52,7 @@ a img {
 ----------------------------------------------- */
 
 body {
-	padding: 0 3.8%;
+	padding: 10% 3.8%;
 	
 }
 
@@ -190,4 +190,10 @@ a:hover {
 	clip: rect(1px, 1px, 1px, 1px);
 }
 
-
+/* My selectors */
+#fnord {
+	color:white;
+}
+.italics {
+	font-style: italic;
+}
