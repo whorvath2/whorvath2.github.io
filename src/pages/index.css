@@ -1,0 +1,40 @@
+body {
+    background-image: url("../../public/background.jpg");
+    font-family: system-ui;
+}
+div#content {
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.92);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+}
+li {
+    padding-bottom: .5%;
+}
+li a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+li span {
+    color: gray;
+    padding-left: 1%;
+    font-style: italic;
+}
+
+.tagline {
+    color: gray;
+    font-style: italic;
+    font-size: 80%;
+}
+
+.tagline a{
+    color: gray;
+    font-weight: bolder;
+    text-decoration: none;
+}
